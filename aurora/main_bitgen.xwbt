@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\yuavlasikov\git\aurora\main.ncd
+OUTFILE=C:\Users\yuavlasikov\git\aurora\main.bit
+FAMILY=Virtex5
+PART=xc5vfx70t-2ff1136
+WORKINGDIR=C:\Users\yuavlasikov\git\aurora
+LICENSE=ISE
+USER_INFO=__0_0_0

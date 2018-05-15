@@ -1,0 +1,28 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue May 15 17:45:29 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "data<0>" LOCATE = SITE "H18" LEVEL 1;
+COMP "data<1>" LOCATE = SITE "L18" LEVEL 1;
+COMP "clk" LOCATE = SITE "AH15" LEVEL 1;
+COMP "data<2>" LOCATE = SITE "G15" LEVEL 1;
+COMP "data<3>" LOCATE = SITE "AD26" LEVEL 1;
+COMP "button<0>" LOCATE = SITE "U8" LEVEL 1;
+COMP "data<4>" LOCATE = SITE "G16" LEVEL 1;
+COMP "button<1>" LOCATE = SITE "V8" LEVEL 1;
+COMP "data<5>" LOCATE = SITE "AD25" LEVEL 1;
+COMP "button<2>" LOCATE = SITE "AJ7" LEVEL 1;
+COMP "data<6>" LOCATE = SITE "AD24" LEVEL 1;
+COMP "button<3>" LOCATE = SITE "AK7" LEVEL 1;
+COMP "data<7>" LOCATE = SITE "AE24" LEVEL 1;
+COMP "button<4>" LOCATE = SITE "AJ6" LEVEL 1;
+TIMEGRP PLL_1_CLKOUT0_BUF = BEL "data_0" BEL "data_1" BEL "data_2" BEL
+        "data_3" BEL "data_4" BEL "data_5" BEL "PLL_1/CLKOUT0_BUFG_INST";
+PIN PLL_1/PLL_ADV_INST_pins<2> = BEL "PLL_1/PLL_ADV_INST" PINNAME CLKIN1;
+TIMEGRP tnm_clk = PIN "PLL_1/PLL_ADV_INST_pins<2>";
+TS_clk = PERIOD TIMEGRP "tnm_clk" 10 ns HIGH 50%;
+TS_PLL_1_CLKOUT0_BUF = PERIOD TIMEGRP "PLL_1_CLKOUT0_BUF" TS_clk / 0.5 HIGH
+        50%;
+SCHEMATIC END;
+

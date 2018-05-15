@@ -1,0 +1,150 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf main.ucf
+
+Design file:              main.ncd
+Physical constraint file: main.pcf
+Device,package,speed:     xc5vfx70t,ff1136,-2 (PRODUCTION 1.73 2013-10-13, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_clk = PERIOD TIMEGRP "tnm_clk" 10 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   4.000ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_clk = PERIOD TIMEGRP "tnm_clk" 10 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 6.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 2.000ns (Tdcmpw_CLKIN_100_150)
+  Physical resource: PLL_1/PLL_ADV_INST/CLKIN1
+  Logical resource: PLL_1/PLL_ADV_INST/CLKIN1
+  Location pin: PLL_ADV_X0Y0.CLKIN1
+  Clock network: PLL_1/CLKIN1_IBUFG
+--------------------------------------------------------------------------------
+Slack: 6.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 2.000ns (Tdcmpw_CLKIN_100_150)
+  Physical resource: PLL_1/PLL_ADV_INST/CLKIN1
+  Logical resource: PLL_1/PLL_ADV_INST/CLKIN1
+  Location pin: PLL_ADV_X0Y0.CLKIN1
+  Clock network: PLL_1/CLKIN1_IBUFG
+--------------------------------------------------------------------------------
+Slack: 8.592ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.408ns (710.227MHz) (Tpllper_CLKIN)
+  Physical resource: PLL_1/PLL_ADV_INST/CLKIN1
+  Logical resource: PLL_1/PLL_ADV_INST/CLKIN1
+  Location pin: PLL_ADV_X0Y0.CLKIN1
+  Clock network: PLL_1/CLKIN1_IBUFG
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_PLL_1_CLKOUT0_BUF = PERIOD TIMEGRP "PLL_1_CLKOUT0_BUF" 
+TS_clk / 0.5 HIGH         50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   1.498ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_PLL_1_CLKOUT0_BUF = PERIOD TIMEGRP "PLL_1_CLKOUT0_BUF" TS_clk / 0.5 HIGH
+        50%;
+--------------------------------------------------------------------------------
+Slack: 18.502ns (period - min period limit)
+  Period: 20.000ns
+  Min period limit: 1.498ns (667.557MHz) (Tbgper_I)
+  Physical resource: PLL_1/CLKOUT0_BUFG_INST/I0
+  Logical resource: PLL_1/CLKOUT0_BUFG_INST/I0
+  Location pin: BUFGCTRL_X0Y0.I0
+  Clock network: PLL_1/CLKOUT0_BUF
+--------------------------------------------------------------------------------
+Slack: 19.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 20.000ns
+  Low pulse: 10.000ns
+  Low pulse limit: 0.500ns (Tockpwl)
+  Physical resource: data_0/CLK
+  Logical resource: data_0/CK
+  Location pin: OLOGIC_X1Y218.CLK
+  Clock network: clk_50_MHz
+--------------------------------------------------------------------------------
+Slack: 19.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 20.000ns
+  High pulse: 10.000ns
+  High pulse limit: 0.500ns (Tockpwh)
+  Physical resource: data_0/CLK
+  Logical resource: data_0/CK
+  Location pin: OLOGIC_X1Y218.CLK
+  Clock network: clk_50_MHz
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_clk
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_clk                         |     10.000ns|      4.000ns|      0.749ns|            0|            0|            0|            0|
+| TS_PLL_1_CLKOUT0_BUF          |     20.000ns|      1.498ns|          N/A|            0|            0|            0|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+No constraints were found to generate data for the Data Sheet Report section.
+Use the Advanced Analysis (-a) option or generate global constraints for each
+clock, its pad to setup and clock to pad paths, and a pad to pad constraint.
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 0 paths, 0 nets, and 0 connections
+
+Design statistics:
+   Minimum period:   4.000ns{1}   (Maximum frequency: 250.000MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Tue May 15 17:45:51 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 390 MB
+
+
+

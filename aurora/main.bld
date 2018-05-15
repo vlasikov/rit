@@ -1,0 +1,70 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir/transceiver/implement -sd ipcore_dir -nt
+timestamp -uc main.ucf -p xc5vfx70t-ff1136-2 main.ngc main.ngd
+
+Reading NGO file "C:/Users/yuavlasikov/git/aurora/main.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "main.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'tnm_clk', used in period specification
+   'TS_clk', was traced into PLL_ADV instance PLL_1/PLL_ADV_INST. The following
+   new TNM groups and period specifications were generated at the PLL_ADV
+   output(s): 
+   CLKOUT0: <TIMESPEC TS_PLL_1_CLKOUT0_BUF = PERIOD "PLL_1_CLKOUT0_BUF" TS_clk /
+   0.5 HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'my_transceiver/aurora_lane_0_i/lane_init_sm_i/lane_up_flop_i' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'my_transceiver/tx_ll_i/tx_ll_control_i/gen_cc_flop_0_i' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_transceiver/global_logic_i/idle_and_ver_gen_i/gen_r_flop_1_i' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_transceiver/global_logic_i/idle_and_ver_gen_i/gen_r_flop_0_i' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_transceiver/global_logic_i/idle_and_ver_gen_i/gen_k_flop_1_i' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_transceiver/global_logic_i/idle_and_ver_gen_i/gen_k_flop_0_i' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_transceiver/global_logic_i/idle_and_ver_gen_i/gen_a_flop_0_i' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_transceiver/global_logic_i/idle_and_ver_gen_i/gen_v_flop_1_i' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_transceiver/global_logic_i/idle_and_ver_gen_i/gen_v_flop_0_i' has
+   unconnected output pin
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   9
+
+Total memory usage is 172284 kilobytes
+
+Writing NGD file "main.ngd" ...
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "main.bld"...

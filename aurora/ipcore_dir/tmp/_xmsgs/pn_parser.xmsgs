@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/example_design/cc_manager/transceiver_standard_cc_module.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/example_design/clock_module/transceiver_clock_module.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/example_design/gt/transceiver_tile.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/example_design/gt/transceiver_transceiver_wrapper.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/example_design/traffic_gen_check/transceiver_frame_check.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/example_design/traffic_gen_check/transceiver_frame_gen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/example_design/transceiver_example_design.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/example_design/transceiver_reset_logic.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_aurora_lane.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_channel_err_detect.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_channel_init_sm.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_chbond_count_dec.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_err_detect.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_global_logic.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_idle_and_ver_gen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_lane_init_sm.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_rx_ll.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_rx_ll_pdu_datapath.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_sym_dec.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_sym_gen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_tx_ll.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_tx_ll_control.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/yuavlasikov/git/aurora/ipcore_dir/transceiver/src/transceiver_tx_ll_datapath.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

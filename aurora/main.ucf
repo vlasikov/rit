@@ -1,0 +1,28 @@
+
+
+NET "data[0]" LOC = H18;
+NET "data[1]" LOC = L18;
+NET "data[2]" LOC = G15;
+NET "data[3]" LOC = AD26;
+NET "data[4]" LOC = G16;
+NET "data[5]" LOC = AD25;
+NET "data[6]" LOC = AD24;
+NET "data[7]" LOC = AE24;
+
+
+NET "button[0]" LOC = U8;
+NET "button[1]" LOC = V8;
+NET "button[2]" LOC = AJ7;
+NET "button[3]" LOC = AK7;
+NET "button[4]" LOC = AJ6;
+
+# aurora
+#NET "sma_rx_n"  LOC = J1;
+#NET "sma_rx_p" LOC = K1;
+#NET "sma_tx_n" LOC = K2;
+#NET "sma_tx_p" LOC = L2;
+
+NET "clk" LOC = AH15;
+NET "clk" TNM_NET = tnm_clk;
+TIMESPEC TS_clk = PERIOD tnm_clk 10 ns;
+
